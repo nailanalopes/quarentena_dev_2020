@@ -1,9 +1,7 @@
-function calcular(){
+quantidadelikes=0
+function adcionarLike(){
+  quantidadelikes=1+quantidadelikes
+  botao.innerHTML=quantidadelikes+`${quantidadelikes<=1?" Like":" Likes"}`
+ 
   
-var data = new Date()
-  
-  anoatual=data.getFullYear();
-  datadenascimento=inputNascimento.value.split("/")
-  idade=anoatual-datadenascimento[2]
-    botaoCalcular.innerHTML="Idade: "+ idade
 }
