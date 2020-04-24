@@ -2,23 +2,21 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Certificado #QuarentenaDev</title>
+  <title>CodePen - Cálculo Idade</title>
   <link rel="stylesheet" href="./style.css">
 
 </head>
 <body>
 <!-- partial:index.partial.html -->
-<h1> Gerador de Certificado </h1>
-<strong> #quarentenaDev </strong>
-
 <label for="inputNome"> Nome: </label>
-<input id="inputNome" placeholder="Nailana Lopes">
+<input id="inputNome" type="text">
 
-<button id="botaoGerar" onclick="gerar()"> 
-  Gerar certificado 
+<label for="inputNascimento"> DT de Nasc: </label>
+<input id="inputNascimento" type="text">
+
+<button id="botaoCalcular" onclick="calcular()">
+  Calcular
 </button>
-
-<script src="https://caelum.github.io/quarentenadev/libCertificado.js"></script>
 <!-- partial -->
   <script  src="./script.js"></script>
 
